@@ -1,1 +1,12 @@
+user_id,subscription_start,subscription_end,plan_type
+1,2023-01-05,2023-06-05,Monthly
+2,2023-01-12,2023-02-12,Monthly
+3,2023-01-18,2023-07-18,Annual
+4,2023-02-02,2023-03-02,Monthly
+5,2023-02-10,2023-05-10,Quarterly
+6,2023-02-15,2023-04-15,Monthly
+7,2023-03-01,2023-09-01,Annual
+8,2023-03-05,2023-04-05,Monthly
+9,2023-03-12,2023-06-12,Quarterly
+10,2023-03-20,2023-04-20,Monthly
 
