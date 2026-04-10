@@ -1,1 +1,12 @@
+user_id,signup_date,country,acquisition_channel
+1,2023-01-05,USA,Organic
+2,2023-01-12,Canada,Paid Ads
+3,2023-01-18,UK,Referral
+4,2023-02-02,USA,Organic
+5,2023-02-10,Germany,Paid Ads
+6,2023-02-15,USA,Social Media
+7,2023-03-01,France,Organic
+8,2023-03-05,USA,Referral
+9,2023-03-12,Spain,Paid Ads
+10,2023-03-20,USA,Organic
 
