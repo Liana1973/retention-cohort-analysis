@@ -1,97 +1,92 @@
-# retention-cohort-analysis
+# 📊 User Retention & Cohort Analysis for a Subscription App  
+# 📊 Анализ удержания пользователей и когорт для подписочного приложения  
 
-# User Retention & Cohort Analysis for a Subscription‑Based App;;Project Overview
+---
 
-## Project Overview
-This project analyzes user retention, churn, and subscription behavior for a fictional mobile app.
-Using cohort analysis, statistical tests, and product analytics techniques, the goal is to understand:
+## 🧠 Project Overview / Обзор проекта
 
-how long users stay active
+**EN:**  
+This project simulates a real-world product analytics scenario for a subscription-based mobile application.  
+The goal is to analyze user retention, churn behavior, and subscription patterns to identify actionable insights that can improve user engagement and reduce churn.
 
-which cohorts retain better
+**RU:**  
+Проект моделирует реальную задачу продуктовой аналитики для мобильного приложения с подпиской.  
+Цель — проанализировать удержание пользователей, отток и поведение подписчиков, чтобы найти инсайты для повышения вовлеченности и снижения оттока.
 
-what factors correlate with churn
+---
 
-how subscription plans influence user lifetime
+## 🎯 Business Problem / Бизнес-проблема
 
-## Why This Project Matters
+**EN:**  
+The product team observed declining retention and high churn rates but lacked clarity on the key drivers.  
+This analysis aims to identify factors influencing retention and provide data-driven recommendations.
 
-This project is designed as a practical continuation of the course Decision Making with Business Statistics.
-It applies the exact concepts you studied:
+**RU:**  
+Команда продукта столкнулась с высоким оттоком пользователей и снижением удержания.  
+Цель анализа — определить ключевые факторы и предложить решения на основе данных.
 
-probability & distributions
+---
 
-sampling & inference
+## 📊 Key Business Metrics / Ключевые метрики
 
-confidence intervals
+- Retention Rate  
+- Churn Rate  
+- User Lifetime  
+- Conversion to Paid  
 
-hypothesis testing
+---
 
-ANOVA
+## 📂 Dataset / Данные
 
-Chi‑Square
+The dataset includes three tables:
 
-tests for means and proportions
+- **users.csv** — user demographics & acquisition channel  
+- **activity.csv** — daily user activity  
+- **subscriptions.csv** — subscription plans and payments  
 
-## Project Structure
-📁 retention-cohort-analysis
-│── data/
-│     ├── users.csv
-│     ├── activity.csv
-│     └── subscriptions.csv
-│── notebooks/
-│     └── cohort_analysis.ipynb
-│── src/
-│     └── utils.py
-│── README.md
-│── requirements.txt
+---
 
- ## Key Analyses 
+## 📈 Key Analyses / Основные анализы
 
- Cohort creation
+- Cohort Analysis (Retention Matrix)  
+- Churn Analysis  
+- Subscription Behavior Analysis  
+- Statistical Testing:
+  - T-test  
+  - ANOVA  
+  - Chi-Square  
+- Correlation Analysis  
 
-Retention matrix
+---
 
-Churn analysis
+## 🔍 Key Insights / Ключевые выводы
 
-Subscription lifetime
+- Organic users show **2x higher retention** compared to paid users → marketing efficiency should be reviewed  
+- Monthly plan users churn significantly faster than annual users → pricing strategy impacts retention  
+- Early user activity strongly correlates with long-term retention → onboarding experience is critical  
 
-ANOVA for retention differences
+---
 
-Chi‑Square for churn by plan
+## 🚀 Business Recommendations / Рекомендации
 
-T‑Test for activity differences
+- Focus on organic acquisition channels to improve retention quality  
+- Improve onboarding experience to increase early engagement  
+- Promote annual subscription plans to reduce churn  
+- Monitor early user activity as a leading indicator of retention  
 
-Correlation analysis
+---
 
-## Example Insights 
+## 🛠 Tech Stack
 
-Organic users retain 2× better than Paid Ads users
+- Python (Pandas, NumPy)  
+- Data Visualization (Matplotlib, Seaborn)  
+- Statistical Analysis  
+- Cohort Analysis  
 
-Monthly plan users churn faster than annual plan users
+---
 
-Early activity strongly predicts long‑term retention
+## ▶️ How to Run
 
-## Tech Stack
-
-Python
-
-Pandas
-
-NumPy
-
-Seaborn / Matplotlib
-
-Statistical Testing
-
-Cohort Analysis
-
-Product Analytics
-
-## Next Steps
-
-Add machine learning churn prediction
-
-Add LTV modeling
-
-Add segmentation (K‑Means)
+```bash
+pip install -r requirements.txt
+jupyter notebook notebooks/cohort_analysis.ipynb
